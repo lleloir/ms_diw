@@ -1,0 +1,36 @@
+.navstyle{
+    background: aquamarine !important;
+}
+.navimg{
+    height: 50px;
+}
+.fond_jardin{
+    height:100%;
+    width : 100%;
+}
+.title{
+    margin-top: 15%;
+    margin-left: 28%;
+    font-size:500%;
+    font-family: 'Times New Roman', Times, serif;
+    color:salmon;
+}
+.carousel_jardin{
+   position: relative;
+   height: auto;
+   width: auto;
+   margin-left:7% ;
+   margin-top: 25%;
+}
+.conseil_jardin{
+height: 25%;
+width: 25%;
+
+}
+.conseil_deco{
+
+}
+.outillage_jardin{
+
+}
+
