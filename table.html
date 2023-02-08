@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <title>Jarditou/Tableau</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+
 </head>
 
 <body>
@@ -25,65 +26,69 @@
     <img src="/assets/img/promotion.jpg" alt="promotion sur les lames de terrasse" title="promotion sur les lames de terrasse" class="promotion_img_table">
     <h1 id="h1_table">Tableau</h1>
     <hr>
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Photo</th>
-          <th>ID</th>
-          <th>Catégorie</th>
-          <th>Libellé</th>
-          <th>Prix</th>
-          <th>Couleur</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><img src="/assets/img/7.jpg" width="125" height="120" alt="barbecue" title="barbecue"></td>
-          <td>7</td>
-          <td>Barbecues</td>
-          <td>aramis</td>
-          <td>110.00 euro</td>
-          <td>Brun</td>
-        </tr>
-
-        <tr>
-          <td><img src="/assets/img/8.jpg" width="125" height="120" alt="barbecue" title="barbecue"></td>
-          <td>8</td>
-          <td>Barbecues</td>
-          <td>athos</td>
-          <td>249.99 euro</td>
-          <td>Noir</td>
-        </tr>
-
-
-        <tr>
-          <td><img src="/assets/img/11.jpg" width="125" height="120" alt="barbecue" title="barbecue"></td>
-          <td>11</td>
-          <td>Barbecues</td>
-          <td>clatronic</td>
-          <td>135.90 euro</td>
-          <td>Chrome</td>
-        </tr>
-
-        <tr>
-          <td><img src="/assets/img/12.jpg" width="125" height="120" alt="barbecue" title="barbecue"></td>
-          <td>12</td>
-          <td>Barbecues</td>
-          <td>Camping</td>
-          <td>88.00 euro</td>
-          <td>Noir</td>
-        </tr>
-
-        <tr>
-          <td><img src="/assets/img/13.jpg" width="125" height="120" alt="Brouette" title="brouette"></td>
-          <td>13</td>
-          <td>Brouette</td>
-          <td>Green</td>
-          <td>49.00 euro</td>
-          <td>Verte</td>
-        </tr>
-    </table>
-  </tbody>
+  
+  <div class="container ">
+    <div class="row border border-4 border-secondary  p-2 m-auto bg-secondary bg-opacity-50">
+      <div class="col">Photo</div>
+      <div class="col">ID</div>
+      <div class="col">Catégorie</div>
+      <div class="col">Libellé</div>
+      <div class="col">Prix</div>
+      <div class="col">Couleur</div>
+    </div>
+      <div class="w-100"></div>
+      <div class="row m-auto border border-4 border-secondary bg-warning bg-opacity-50">
+      <div class="col m-auto">
+        <img src="/assets/img/7.jpg"  width="100" alt="barbecue" title="barbecue">
+      </div>
+      <div class="col m-auto ">7</div>
+      <div class="col m-auto">Barbecues</div>
+      <div class="col m-auto">Aramis</div>
+      <div class="col m-auto">110.00 euro</div>
+      <div class="col m-auto">Brun</div>
+    </div>
+      <div class="w-100"></div>
+      <div class="row m-auto border border-4 border-secondary bg-secondary bg-opacity-50">
+        <div class="col m-auto">
+          <img src="/assets/img/8.jpg"  width="100" alt="barbecue" title="barbecue">
+        </div>
+        <div class="col m-auto">8</div>
+        <div class="col m-auto">Athos</div>
+        <div class="col m-auto">aramis</div>
+        <div class="col m-auto">249.99 euro</div>
+        <div class="col m-auto">Noir</div>
+      </div>
+      <div class="row m-auto border border-4 border-secondary bg-warning bg-opacity-50">
+        <div class="col m-auto">
+          <img src="/assets/img/11.jpg"  width="100" alt="barbecue" title="barbecue">
+        </div>
+        <div class="col m-auto">11</div>
+        <div class="col m-auto">Barbecues</div>
+        <div class="col m-auto">Clatronic</div>
+        <div class="col m-auto">135.90 euro</div>
+        <div class="col m-auto">Chrome</div>
+      </div>
+      <div class="row m-auto border border-4 border-secondary bg-secondary bg-opacity-50">
+        <div class="col m-auto">
+          <img src="/assets/img/12.jpg"  width="100" alt="barbecue" title="barbecue">
+        </div>
+        <div class="col m-auto">12</div>
+        <div class="col m-auto">Barbecues</div>
+        <div class="col m-auto">Camping</div>
+        <div class="col m-auto">88.00 euro</div>
+        <div class="col m-auto">Noir</div>
+      </div>
+      <div class="row m-auto border border-4 border-secondary bg-warning bg-opacity-50">
+        <div class="col m-auto">
+          <img src="/assets/img/13.jpg"  width="100" alt="barbecue" title="barbecue">
+        </div>
+        <div class="col m-auto">13</div>
+        <div class="col m-auto">Brouette</div>
+        <div class="col m-auto">Green</div>
+        <div class="col m-auto">49.00 euro</div>
+        <div class="col m-auto">Verte</div>
+      </div>
+  </div>
     <hr>
   </section>
   <aside class="aside_table">

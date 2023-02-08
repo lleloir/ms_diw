@@ -4,71 +4,15 @@
 .navimg{
     height: 50px;
 }
-.fond_jardin{
-    height:auto;
-    width :100%;
-}
-.title{
-    margin-top: 15%;
-    margin-left: 43%;
-    font-size:500%;
-    font-family: 'Times New Roman', Times, serif;
-    color:salmon;
-}
-.entreprise{
-    margin-left: 44%;
-    transform: translateX(10%) translatey(1100%) !important;
-    color:coral;
-}
-.p-1{
-    height: auto!important;
-    width: auto!important;
-    transform: translateX(0%) translatey(800%) !important;
-    font-size: 20px;
-    background-color: #B0F2B6;
-}
+.bg-image{
 
-.qualite{
-    margin-left: 37%;
-    transform: translateX(10%) translatey(1700%) !important;
-    color:coral;
 }
-.p-2{
-    
-    height: auto!important;
-    width: auto!important;
-    transform: translateX(-3%) translatey(1600%) !important;
-    font-size: 20px;
-    background-color: #B0F2B6;
+.text{
+background-color: #B0F2B6 ;
 }
-.devis{
-    margin-left: 19%;
-    transform: translateX(10%) translatey(2200%)!important;
-    color:coral;
-}
-.p-3{
-    height: auto!important;
-    width: auto!important;
-    transform: translateX(-18%) translatey(1000%) !important;
-    font-size: 20px;
-    background-color: #B0F2B6;
+.display-6{
+    color: coral;
 }
 .footer_index{
-    background-color: aquamarine ;
-    height: auto;
-    width: auto;
-    padding-block: 25px;
-    
-}
-.legale{
-left: 42%;
-color: coral;
-}
-.horaire{
-    left: 42%;
-    color:coral;
-}
-.plan{
-    left: 42%;
-    color:coral;
+    background-color: aquamarine;
 }
